@@ -1,0 +1,2 @@
+Tests: runtestsuite3
+Depends: python3-mistune, python3-nose

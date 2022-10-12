@@ -1,0 +1,21 @@
+Source: mistune
+Maintainer: Debian Python Modules Team <team+python@tracker.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>,
+           Tristan Seligmann <mithrandi@debian.org>
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Homepage: https://github.com/lepture/mistune
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-nose
+Rules-Requires-Root: no
+Vcs-Git: https://salsa.debian.org/python-team/packages/mistune.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/mistune
+
+Package: python3-mistune
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Markdown parser for Python 3
+ A fast markdown parser in pure Python, inspired by marked, also providing
+ renderer features.
+ .
+ This package installs the library for Python 3.
