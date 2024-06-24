@@ -2,11 +2,11 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: mistune
 
 Files: *
-Copyright: 2014-2018 Hsiaoming Yang
+Copyright: 2014-2021 Hsiaoming Yang
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2015-2018 Julien Puydt <jpuydt@debian.org>
+Copyright: 2015-2021 Julien Puydt <jpuydt@debian.org>
 License: BSD-3-clause
 
 License: BSD-3-clause

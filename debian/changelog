@@ -1,3 +1,85 @@
+mistune (3.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump standards-version to 4.6.2.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 12 Dec 2023 15:27:59 +0100
+
+mistune (2.0.4-2) unstable; urgency=medium
+
+  * Team upload
+  * Remove retired uploader
+
+ -- Bastian Germann <bage@debian.org>  Thu, 13 Jul 2023 14:36:09 +0200
+
+mistune (2.0.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 19 Jul 2022 09:37:22 +0200
+
+mistune (2.0.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump standards-version to 4.6.1.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 10 Jul 2022 15:52:15 +0200
+
+mistune (2.0.2-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release 2.0.2
+
+ -- Pierre-Elliott Bécue <peb@debian.org>  Thu, 31 Mar 2022 16:12:53 +0200
+
+mistune (2.0.0.0+really2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Releasing mistune 2.0.0 again
+
+ -- Pierre-Elliott Bécue <peb@debian.org>  Thu, 31 Mar 2022 13:54:52 +0200
+
+mistune (2.0.0.0+really2.0.0-1~exp1) experimental; urgency=medium
+
+  * Team upload
+  * Preparing the return of mistune to 2.0.0 in experimental
+    - Screwed versioning because of the "-1" that I accidentally kept in the
+    previous release in upstream's version scheme…
+  * Use pybuild-plugin-pyproject as a builder
+
+ -- Pierre-Elliott Bécue <peb@debian.org>  Wed, 12 Jan 2022 21:26:40 +0100
+
+mistune (2.0.0-1+really0.8.4-1) unstable; urgency=medium
+
+  * Team upload
+  * Rollback to 0.8.4 due to reverse-dependencies not ready yet.
+  * Drop d/p/0001.
+
+ -- Pierre-Elliott Bécue <peb@debian.org>  Tue, 11 Jan 2022 21:39:47 +0100
+
+mistune (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release 2.0.0
+  * d/p/0001: Readd temporarily a setup.py until python3-build is properly
+    supported in unstable
+
+ -- Pierre-Elliott Bécue <peb@debian.org>  Sun, 05 Dec 2021 18:07:14 +0100
+
+mistune (2.0.0~rc1-1~exp1) experimental; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.1, no changes needed.
+
+  [ Pierre-Elliott Bécue ]
+  * New upstream release 2.0.0rc1
+  * Bump std-ver to 4.6.0.
+  * Update d/copyright
+
+ -- Pierre-Elliott Bécue <peb@debian.org>  Mon, 29 Nov 2021 22:06:15 +0100
+
 mistune (0.8.4-5) unstable; urgency=medium
 
   [ Julien Puydt ]
