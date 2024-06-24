@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-nosetests3 2>/dev/null

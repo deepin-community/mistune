@@ -1,2 +1,4 @@
-Tests: runtestsuite3
-Depends: python3-mistune, python3-nose
+Tests: python3-mistune
+Depends: @,
+         python3-pytest,
+         python3-all
